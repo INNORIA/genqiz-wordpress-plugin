@@ -54,12 +54,12 @@ Easy to setup by create a bot and add token and inbox id and you can use the bot
 
 1. Upload [genqiz-wordpress-plugin](https://github.com/INNORIA/genqiz-wordpress-plugin/tree/master) directory to WordPress plugins directory (`/wp-content/plugins/`).
 2. Activate the chat bot plugin through the `Plugins` menu in WordPress.
-4. Go to https://app.genqiz.com and create a new account or sign-in if you already have a Genqiz account.
-5. Create a new bot in Genqiz site.
-6. Copy the token and inbox
-7. Back Wordpress admin dashboard and click the `Genqiz` menu on the left.
-8. Udpdate token and inbox
-9. Save the change and your site has the bot
+3. Go to https://app.genqiz.com and create a new account or sign-in if you already have a Genqiz account.
+4. Create a new bot in Genqiz site.
+5. Copy the token and inbox
+6. Back Wordpress admin dashboard and click the `Genqiz` menu on the left.
+7. Udpdate token and inbox
+8. Save the change and your site has the bot
 
 == Frequently Asked Questions ==
 
