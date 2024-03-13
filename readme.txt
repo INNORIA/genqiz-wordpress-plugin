@@ -52,7 +52,7 @@ Easy to setup by create a bot and add token and inbox id and you can use the bot
 
 = Manual Installation =
 
-1. Upload `genqiz-wordpress-plugin` directory to WordPress plugins directory (`/wp-content/plugins/`).
+1. Upload [genqiz-wordpress-plugin](https://github.com/INNORIA/genqiz-wordpress-plugin/tree/master) directory to WordPress plugins directory (`/wp-content/plugins/`).
 2. Activate the chat bot plugin through the `Plugins` menu in WordPress.
 4. Go to https://app.genqiz.com and create a new account or sign-in if you already have a Genqiz account.
 5. Create a new bot in Genqiz site.
@@ -63,29 +63,29 @@ Easy to setup by create a bot and add token and inbox id and you can use the bot
 
 == Frequently Asked Questions ==
 
-= Do I need a ChatBot account to use this plugin? =
-Yes – you can create your ChatBot account here. [here](https://accounts.chatbot.com/signup?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+= Do I need a Genqiz account to use this plugin? =
+Yes – you can create your Genqiz account here. [here](https://app.genqiz.com/).
 
 = Do you offer a free trial? =
-Yes, you can test all of the features of our ChatBot software for 14 days. Sign up for free [here](https://accounts.chatbot.com/signup?utm_source=wordpress.org&utm_medium=integration&utm_campaign=wordpress_listing).
+Yes, you can test the feature for free after registration account
 
 = How much coding is involved? =
-Zero! You don’t need to have the technical knowledge to use ChatBot. Simply drag and drop elements in our visual editor to create a chatbot.
+Zero! You don’t need to have the technical knowledge to use Genqiz 
 
-= Can my chat bot speak multiple languages? =
-Yes. You can create a multilingual bot in ChatBot. The phrases that trigger a specific interaction are fully customizable, so you can create an interaction in English that can be triggered only with the user input in English, and Spanish triggered with the phrase in Spanish.
+= I have more FAQ? =
+More FAQ [here](https://genqiz.com/faq)
 
-= Is the chat window customizable? =
-Yes, you can customize the chat window colors, texts, and style. With the simple creator, you can adjust the chat-style and make your bot more personal.
-
-= Do you provide support? =
-Yes! You can contact our support at any time. You can also join our ChatBot Community Facebook group to meet other ChatBot enthusiasts and our support team.
+= What is the support channel? =
+Contact us [here](https://genqiz.com/contactus) 
 
 == Screenshots ==
 
-1. Build faster with customizable chatbot templates.
-2. Create chatbots with ease using a drag-and-drop Visual Builder.
-3. Open up a new customer acquisition channel.
-4. Advance your business with data.
-5. Add your chatbot across multiple communication channels.
-6. Learn how to build successful chatbots for your business.
+1. Screenshot page get token and inbox id in https://app.genqiz.com.
+2. Screenshot page setup token and inbox id in the wordpress admin dashboard.
+3. The chat UI overlay.
+4. The widget and chatbox display in the full page.
+
+== Changelog ==
+= v1.0.0 =
+
+* Initial release
