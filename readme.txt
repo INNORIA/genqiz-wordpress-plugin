@@ -1,4 +1,4 @@
-=== Genqiz - WP chat bot plugin for WordPress ===
+===Genqiz Chatbot - AI Chatbot platform ===
 Contributors: Genqiz
 Tags: chatbot, genqiz
 Requires PHP: 5.6
