@@ -17,7 +17,7 @@ class GENQIZCHATBOT_Admin
     }
     public static function get_instance()
     {
-        if (!isset(self::$instance)) {
+        if (!isset (self::$instance)) {
             $c = __CLASS__;
             self::$instance = new $c;
         }
@@ -48,10 +48,6 @@ class GENQIZCHATBOT_Admin
     {
         wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-menu-icon', GENQIZCHATBOT_ADMIN_URL . 'assets/style/menu-icon.css', array(), rand(1, 999));
         wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style', GENQIZCHATBOT_ADMIN_URL . 'assets/style/style.css', array(), rand(1, 999));
-
-        if ($hook !== GENQIZCHATBOT_PAGE_HOOK) {
-            return;
-        }
     }
     public function view()
     {
