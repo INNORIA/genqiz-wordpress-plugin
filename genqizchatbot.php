@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Genqiz Chatbot - AI Chatbot platform
+Plugin Name: Genqiz Chatbot
 Plugin URI: https://app.genqiz.com/
 Description: Easy to use chatbot platform for business. This plugin allows to quickly install Genqiz Chatbot on any WordPress website.
 Author: Genqiz
 Author URI: https://genqiz.com/
-Text Domain: genqiz-wordpress-plugin
+Text Domain: genqiz-chatbot
 Version: 1.0.0
 */
 

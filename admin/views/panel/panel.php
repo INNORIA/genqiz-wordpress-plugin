@@ -3,7 +3,7 @@
 if (!defined('ABSPATH')) {
     exit;
 }
-wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-panel', plugin_dir_url(__FILE__) . 'panel.css', array(), rand(1, 999));
+wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-panel', plugin_dir_url(__FILE__) . 'panel.css', array(), wp_rand(1, 999));
 
 ?>
 
@@ -13,7 +13,7 @@ wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-panel', plugin_dir_url(__F
         <div class="panel-header">
             <img
                 class="logo"
-                src="<?= esc_html(GENQIZCHATBOT_ADMIN_URL . 'assets/images/logo.svg'); ?>"/>
+                src="<?php echo esc_html(GENQIZCHATBOT_ADMIN_URL . 'assets/images/logo.svg'); ?>"/>
             <span class="panel-text">GENQIZ</span>
         </div>
     </div>
@@ -34,7 +34,7 @@ wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-panel', plugin_dir_url(__F
                     <h2>Tutorial</h2>
                 </div>
                <div class="panel-tutorial-content">
-                <span> Step 1: Open <a target="_blank" href="<?= esc_html(GENQIZCHATBOT_WEBSITE_URL) ?>"><?= esc_html(GENQIZCHATBOT_WEBSITE_URL) ?></a></span>
+                <span> Step 1: Open <a target="_blank" href="<?php echo esc_html(GENQIZCHATBOT_WEBSITE_URL) ?>"><?php echo esc_html(GENQIZCHATBOT_WEBSITE_URL) ?></a></span>
                 <span> Step 2: Login or create new account</span>
                 <span> Step 3: Select "GEN Bots" at the left side menu</span>
                 <span> Step 4: Create new bot or choose existing bot</span>
@@ -44,7 +44,7 @@ wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-panel', plugin_dir_url(__F
                </div>
             </div>
             <img
-                src="<?= GENQIZCHATBOT_ADMIN_URL . 'assets/images/screen-shot.png'; ?>"
+                src="<?php echo esc_html(GENQIZCHATBOT_ADMIN_URL) . 'assets/images/screen-shot.png'; ?>"
                 alt="dashboard"/>
         </div>
     </div>

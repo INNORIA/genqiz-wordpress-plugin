@@ -5,6 +5,7 @@ Requires PHP: 5.6
 Tested up to: 6.0.0
 Requires at least: 3.4
 License: GPLv2 or later
+Stable Tag: 1.0.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Genqiz Chatbot for WordPress lets you add AI chatbot to your website.

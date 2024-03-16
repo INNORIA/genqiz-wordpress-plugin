@@ -46,8 +46,8 @@ class GENQIZCHATBOT_Admin
     }
     public function register_scripts($hook)
     {
-        wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-menu-icon', GENQIZCHATBOT_ADMIN_URL . 'assets/style/menu-icon.css', array(), rand(1, 999));
-        wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style', GENQIZCHATBOT_ADMIN_URL . 'assets/style/style.css', array(), rand(1, 999));
+        wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style-menu-icon', GENQIZCHATBOT_ADMIN_URL . 'assets/style/menu-icon.css', array(), wp_rand(1, 999));
+        wp_enqueue_style(GENQIZCHATBOT_ASSETS_PREFIX . 'style', GENQIZCHATBOT_ADMIN_URL . 'assets/style/style.css', array(), wp_rand(1, 999));
     }
     public function view()
     {
